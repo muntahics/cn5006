@@ -13,7 +13,7 @@ The parseInt() function helped the string to transform into a number.
 Accordingly, I understand the way of coding in javascript with node js. 
 However, I am eagerly waiting to join the next class to learn more about Mongo DB.
 
-```
+```javascript
 const prompt = require("prompt-sync")()
 
 const num1 = parseInt(prompt("Enter your first number: "))
