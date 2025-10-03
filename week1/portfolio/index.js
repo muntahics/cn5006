@@ -9,6 +9,6 @@ switch (method) {
     case '-': console.log(`The difference of ${num1} and ${num2} is ${num1 - num2}`);break;
     case '/': console.log(`The division of ${num1} and ${num2} is ${num1 / num2}`);break;
     case '*': console.log(`The multiplication of ${num1} and ${num2} is ${num1 * num2}`);break;
-    default: console.log(`Please enter a method from these four +,-,/,*`); 
+    default: console.log(`Please enter a operation from these four +,-,/,*`); 
 }
 
