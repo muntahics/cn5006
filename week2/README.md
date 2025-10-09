@@ -45,3 +45,6 @@ I have also learnt about the Mongo DB Atlas which is a cloud based Mongo DB serv
   }
 ]
 ```
+# Week2 Portfolio Screenshot
+![Screenshot](/week2/screenshot.png)
+
