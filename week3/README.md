@@ -1,12 +1,12 @@
 # Name: MD Muntahi Hossain  
 # Student ID: 2874263
-My Reflection for week2's learning:
+My Reflection for week3's learning:
 
-This week was about MongoDB and How to use it using query and GUI (Mongo DB Compass). It was about how to run CRUD operations find, insert, update, and delete a document. How to group by running aggregation queries.
-Today we were learning how to interact with the MongoDB Database.
+This week was about NodeJS functions, parameters, arrow functions, modules, local moudles, core modules, exportation of modules. 
+I have learnt the creation of classes and constructing them using instances. This week was focused on how to write reusable functions using node js.
+This lab helped to understand that if we don't call a function, it will not execute.
 
-I have learnt about the functions for interacting with MongoDB Database. How to filter, update, delete and process the database information.
-I have also learnt about the Mongo DB Atlas which is a cloud based Mongo DB server. The aggregation functions were helpful for processing the data.
+The functions are really helpful to create dynamic and interactive web applications. This is feeling like I am making some progress through my coursework.
 
 
 ## Week3 Portfolio Exercise
