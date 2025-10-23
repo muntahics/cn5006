@@ -34,22 +34,24 @@ app.get('/GetStudents',(req,res)=>{
     })
 })
 
-app.get('/GetStudentid/:id',(req,res)=>{
- studentdata={}
- fs.readFile(__dirname + "/" + "Student.json", 'utf8', function (err, data) {
- var students= JSON.parse(data)
- var student=students["Student"+req.params.id]
- console.log("student",student)
- if (student)
- res.json(student)
- else
- res.json({ 'status':true, 'Status_Code':200,
- 'requestedAt': req.localtime, 'requrl':req.url, 
-
-    'requestMethod':req.method, 'studentdata':JSON.parse(data)});
-  
- });
- })
+app.get('/GetStudentid/:id', (req, res) => {
+    fs.readFile(__dirname + "/Student.json", 'utf8', (err, data) => {
+        const students = JSON.parse(data);
+        const student = students["Student" + req.params.id];
+        if (student) {
+            res.json(student);
+        } else {
+            res.json({
+                status: true,
+                Status_Code: 200,
+                requestedAt: req.localtime,
+                requrl: req.url,
+                requestMethod: req.method,
+                studentdata: JSON.parse(data)
+            });
+        }
+    });
+});
  
 
     app.get('/studentinfo',(req,res)=>
