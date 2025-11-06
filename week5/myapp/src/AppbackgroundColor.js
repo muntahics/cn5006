@@ -3,7 +3,7 @@ import './App.css'
 function AppColor(props){
     function greetUser(e){
         document.body.style.backgroundColor = e.target.value
-        alert(`Welcome color ${document.getElementById(props.color).value}`)
+        alert(`Welcome color ${document.getElementById(e.target.value)}`)
     }
     return(
         <body style={{backgroundColor:'powderblue', color:'black'}}>
