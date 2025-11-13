@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.css';
 import Hook_ControlledButtonState from './Counter';
+import MyMoodWaetherWidget from './MyMoodWeather';
 
 
 import EmojiCounter from './EmojiCounter';
@@ -15,6 +16,10 @@ root.render(
     <EmojiCounter pic='Love'/>
     <EmojiCounter pic='Sad'/>
     <EmojiCounter pic='Like'/>
+    <MyMoodWaetherWidget pic='Sunny'/>
+    <MyMoodWaetherWidget pic='Rainy'/>
+    <MyMoodWaetherWidget pic='Cloudy'/>
+
   </React.StrictMode>
 );
 

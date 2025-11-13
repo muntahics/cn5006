@@ -4,9 +4,7 @@ import Like from "./like.png";
 import Sad from "./sad.png";
 import { useState, useEffect } from "react";
 
-const style = {
-    
-} 
+
 
 export default function EmojiCounter(props){
     console.log("pic is ",props.pic)
