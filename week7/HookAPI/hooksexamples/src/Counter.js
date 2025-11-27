@@ -10,8 +10,7 @@ export default function Hook_ControlledButtonState(){
     return(
         <div className="App-header">
             <form>
-                4
-                UEL: CN5006 React Functional Component using Hook Prepared by: Dr N.Qazi
+                
                 <h1>Click Counts are {count}</h1>
                 <button type="button" onClick={ClickHandle}>Click me{count}</button>
             </form>
