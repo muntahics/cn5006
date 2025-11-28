@@ -43,3 +43,16 @@ body {
   text-align: left;
   font-size: 20px;
   }
+  .AddedButtonStyle{
+    background-color: #0997f5;
+  border: 4;
+  color: white;
+  
+  height:60px;
+  width:100px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
+  }
