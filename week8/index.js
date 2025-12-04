@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 const MONGO_URI = "mongodb+srv://muntahics:muntahicss@cluster0.mwombrx.mongodb.net/?appName=Cluster0";
 
+
 mongoose.connect(MONGO_URI);
 const db = mongoose.connection;
 
