@@ -21,9 +21,9 @@ The code block is replaced
 ```
 with this block.
 ```javascript
-<React.StrictMode>
+  <React.StrictMode>
     <KeyPadComponent />
-  </React.StrictMode>>
+  </React.StrictMode>
 ```
 
 After that, I have just refreshed my browser and the calculator app was running.
