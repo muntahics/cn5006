@@ -23,6 +23,6 @@ Corrected
 ```javascript
 document.body.style.backgroundColor = e.target.value;
 ```
-Theere is no property of background inside style object.
+There is no property of background inside style object.
 It must be backgroundColor
 
